@@ -1,11 +1,13 @@
-// import "@/styles/globals.css";
+import "@/styles/globals.css"; // deja esta línea como estaba en tu archivo
 import { Inter } from "next/font/google";
+import Navbar from "../components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 function MyApp({ Component, pageProps }) {
   return (
     <main className={inter.className}>
+      <Navbar />
       <Component {...pageProps} />
     </main>
   );
