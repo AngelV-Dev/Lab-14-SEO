@@ -10,12 +10,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mi Sitio Optimizado - Home</title>
+        <title>SEO y Optimización Web con Next.js | Mi Sitio Optimizado</title>
         <meta name="description" content="Aprende sobre optimización SEO y rendimiento en Next.js." />
         <meta name="keywords" content="Next.js, SEO, optimización web" />
-        <meta property="og:title" content="Mi Sitio Optimizado" />
+        <meta property="og:title" content="SEO y Optimización Web con Next.js" />
         <meta property="og:description" content="Descubre técnicas avanzadas para mejorar tu web con Next.js." />
         <meta property="og:image" content="https://lab-14-seo.onrender.com/images/seo-image.png" />
+        <meta property="og:url" content="https://lab-14-seo.onrender.com/" />
         <meta property="og:type" content="website" />
       </Head>
 
